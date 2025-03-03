@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,11 +9,28 @@
 <body onload="loadPoem(7)">
     <div class="page-container">
         <h2>Page 7</h2>
-        <textarea id="poem" placeholder="Write your poem here..."></textarea>
+        <div class="poem-content">
+            <textarea id="poem">
+They say what doesn't kill you
+makes you stronger,
+but it only left me scared.
+Scared of getting close,
+because people always seem to take more than they give.
+Scared of trusting,
+because trust always ends in broken pieces.
+Scared of loving,
+because love has always felt 
+like a gamble I'm destined to lose.
+Trauma didn't make me brave;
+it made me afraid to try,
+because trying has always felt
+like the first step toward breaking.
+            </textarea>
+        </div>
         <div class="controls">
-            <button onclick="window.location.href='page6.html'">Previous</button>
             <button onclick="savePoem(7)">Save Poem</button>
             <button onclick="window.location.href='index.html'">Home</button>
+            <button onclick="window.location.href='page6.html'">Previous</button>
             <button onclick="window.location.href='page8.html'">Next</button>
         </div>
     </div>

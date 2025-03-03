@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,11 +9,26 @@
 <body onload="loadPoem(35)">
     <div class="page-container">
         <h2>Page 35</h2>
-        <textarea id="poem" placeholder="Write your poem here..."></textarea>
+        <div class="poem-content">
+            <textarea id="poem">
+I learned to swallow my pain,
+because speaking up only 
+made things worse.
+
+I taught myself to stay quiet,
+to hold it all inside,
+to disappear so I wouldn't cause problems.
+
+Now, i keep everything inside
+until it spills out all at once,
+and i'm left drowning
+in everything I tried to hide.
+            </textarea>
+        </div>
         <div class="controls">
-            <button onclick="window.location.href='page34.html'">Previous</button>
             <button onclick="savePoem(35)">Save Poem</button>
             <button onclick="window.location.href='index.html'">Home</button>
+            <button onclick="window.location.href='page34.html'">Previous</button>
             <button onclick="window.location.href='page36.html'">Next</button>
         </div>
     </div>

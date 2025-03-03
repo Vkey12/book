@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,11 +9,26 @@
 <body onload="loadPoem(32)">
     <div class="page-container">
         <h2>Page 32</h2>
-        <textarea id="poem" placeholder="Write your poem here..."></textarea>
+        <div class="poem-content">
+            <textarea id="poem">
+I want to buy you the world,
+but I don't have any cash
+I spent it all way too fast,
+and I would sell all my dreams,
+just for you my love,to buy you
+shiny fancy things
+
+I want to give you my heart.
+I mean you already have it,
+but i'd duplicate it and give you another
+and you can hang it on your wall.
+...or maybe stuff it under your mattress or something. 
+            </textarea>
+        </div>
         <div class="controls">
-            <button onclick="window.location.href='page31.html'">Previous</button>
             <button onclick="savePoem(32)">Save Poem</button>
             <button onclick="window.location.href='index.html'">Home</button>
+            <button onclick="window.location.href='page31.html'">Previous</button>
             <button onclick="window.location.href='page33.html'">Next</button>
         </div>
     </div>

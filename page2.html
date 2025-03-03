@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,11 +9,28 @@
 <body onload="loadPoem(2)">
     <div class="page-container">
         <h2>Page 2</h2>
-        <textarea id="poem" placeholder="Write your poem here..."></textarea>
+        <div class="poem-content">
+            <textarea id="poem">
+Even when we do not see eye to eye
+I will still be by your side
+to provide the light when life gets dark
+                
+Even when your feet burn
+as you tread through hell
+I will put you on my back to give you a rest
+                
+I may not text back fast
+or answer every call
+I may seem distant for the most part
+but as a friend you will always
+be in my heart
+That will never change.
+            </textarea>
+        </div>
         <div class="controls">
-            <button onclick="window.location.href='page1.html'">Previous</button>
             <button onclick="savePoem(2)">Save Poem</button>
             <button onclick="window.location.href='index.html'">Home</button>
+            <button onclick="window.location.href='page1.html'">Previous</button>
             <button onclick="window.location.href='page3.html'">Next</button>
         </div>
     </div>

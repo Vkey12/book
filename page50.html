@@ -9,11 +9,21 @@
 <body onload="loadPoem(50)">
     <div class="page-container">
         <h2>Page 50</h2>
-        <textarea id="poem" placeholder="Write your poem here..."></textarea>
+        <div class="poem-content">
+            <textarea id="poem">
+Promise me not to 
+hide yourself when 
+you in pain.
+It's unfair that
+we laughed together
+but you cry alone.  
+            </textarea>
+        </div>
         <div class="controls">
             <button onclick="savePoem(50)">Save Poem</button>
             <button onclick="window.location.href='index.html'">Home</button>
             <button onclick="window.location.href='page49.html'">Previous</button>
+            <button onclick="window.location.href='index.html'">Finish</button>
         </div>
     </div>
     <script src="script.js"></script>

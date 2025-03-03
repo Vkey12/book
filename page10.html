@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,11 +9,27 @@
 <body onload="loadPoem(10)">
     <div class="page-container">
         <h2>Page 10</h2>
-        <textarea id="poem" placeholder="Write your poem here..."></textarea>
+        <div class="poem-content">
+            <textarea id="poem">
+I am never meant to save you,
+not me. I am meant only to love you.
+I am meant only to hold your hand,
+to grip it tight, tight as I dare.
+                
+I hope you will not mind if 
+I shatter your fragile, fragile bones.
+My fingers grip too tight sometimes,
+and i wish not to let you go.
+                
+I am never meant to save you,
+not me. But i'll do all that I can
+if you'll at least let me try. 
+            </textarea>
+        </div>
         <div class="controls">
-            <button onclick="window.location.href='page9.html'">Previous</button>
             <button onclick="savePoem(10)">Save Poem</button>
             <button onclick="window.location.href='index.html'">Home</button>
+            <button onclick="window.location.href='page9.html'">Previous</button>
             <button onclick="window.location.href='page11.html'">Next</button>
         </div>
     </div>

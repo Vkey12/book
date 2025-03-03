@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,11 +9,31 @@
 <body onload="loadPoem(9)">
     <div class="page-container">
         <h2>Page 9</h2>
-        <textarea id="poem" placeholder="Write your poem here..."></textarea>
+        <div class="poem-content">
+            <textarea id="poem">
+As a child, I was taught
+that emotions were weapons
+not something to be shared.
+When I showed anger,
+it became a fight.
+When I showed sadness,
+it was dismissed.
+So, I learned to bury my feelings,
+to keep them hidden
+where no one could use them against me.
+Now, I don't know how to let them out.
+I don't know how to cry
+without feeling like I've failed,
+or how to speak my truth
+without fearing it will be turned into a fight.
+The silence feels safer,
+but it's also the loneliest place to 
+            </textarea>
+        </div>
         <div class="controls">
-            <button onclick="window.location.href='page8.html'">Previous</button>
             <button onclick="savePoem(9)">Save Poem</button>
             <button onclick="window.location.href='index.html'">Home</button>
+            <button onclick="window.location.href='page8.html'">Previous</button>
             <button onclick="window.location.href='page10.html'">Next</button>
         </div>
     </div>

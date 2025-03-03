@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,11 +9,29 @@
 <body onload="loadPoem(4)">
     <div class="page-container">
         <h2>Page 4</h2>
-        <textarea id="poem" placeholder="Write your poem here..."></textarea>
+        <div class="poem-content">
+            <textarea id="poem">
+If you are looking for forever,
+i'll take the batteries of my clocks.
+So that we'll be stuck inside this moment 
+as if time had really stopped.
+                
+I would tell you I love you
+every second, except here, 
+seconds do not exist.
+So i'll say I love you with each breath,
+with each smile, with each kiss.
+                
+And when I die, you can crank your watch,
+restart your clocks, begin the time.
+And know that we were infinite
+in the moment that you were mine. 
+            </textarea>
+        </div>
         <div class="controls">
-            <button onclick="window.location.href='page3.html'">Previous</button>
             <button onclick="savePoem(4)">Save Poem</button>
             <button onclick="window.location.href='index.html'">Home</button>
+            <button onclick="window.location.href='page3.html'">Previous</button>
             <button onclick="window.location.href='page5.html'">Next</button>
         </div>
     </div>
